@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A192F"/>
+      <stop offset="50%" stop-color="#0F2444"/>
+      <stop offset="100%" stop-color="#142C52"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E3A5F" stroke-width="0.8" opacity="0.6"/>
+      <path d="M 200 0 L 0 0 0 200" fill="none" stroke="#2563EB" stroke-width="1.2" opacity="0.2"/>
+    </pattern>
+  </defs>
+
+  <!-- Fundo Corporativo Técnico -->
+  <rect width="600" height="400" fill="url(#bgGrad)"/>
+  <rect width="600" height="400" fill="url(#grid)"/>
+
+  <!-- Linhas Técnicas de Engenharia -->
+  <line x1="20" y1="20" x2="580" y2="20" stroke="#1E3A5F" stroke-width="1"/>
+  <line x1="20" y1="380" x2="580" y2="380" stroke="#1E3A5F" stroke-width="1"/>
+  <line x1="20" y1="20" x2="20" y2="380" stroke="#1E3A5F" stroke-width="1"/>
+  <line x1="580" y1="20" x2="580" y2="380" stroke="#1E3A5F" stroke-width="1"/>
+
+  <!-- Cantos de Esquadro -->
+  <path d="M 20 45 L 20 20 L 45 20" stroke="#F26419" stroke-width="3" fill="none"/>
+  <path d="M 555 20 L 580 20 L 580 45" stroke="#F26419" stroke-width="3" fill="none"/>
+  <path d="M 20 355 L 20 380 L 45 380" stroke="#F26419" stroke-width="3" fill="none"/>
+  <path d="M 555 380 L 580 380 L 580 355" stroke="#F26419" stroke-width="3" fill="none"/>
+
+  <!-- Centro Técnico com Ícone -->
+  <g transform="translate(300, 165)">
+    <circle cx="0" cy="0" r="65" fill="#0A192F" stroke="#1E3A5F" stroke-width="2"/>
+    <circle cx="0" cy="0" r="55" fill="none" stroke="#F26419" stroke-width="1.5" stroke-dasharray="6 4" opacity="0.8"/>
+    <rect x="-35" y="-45" width="70" height="90" fill="#1E293B" stroke="#0F52BA" stroke-width="2"/><rect x="-25" y="-35" width="16" height="18" fill="#38BDF8" opacity="0.8"/><rect x="9" y="-35" width="16" height="18" fill="#38BDF8" opacity="0.8"/><rect x="-25" y="-8" width="16" height="18" fill="#38BDF8" opacity="0.8"/><rect x="9" y="-8" width="16" height="18" fill="#38BDF8" opacity="0.8"/><rect x="-10" y="22" width="20" height="23" fill="#F26419"/>
+  </g>
+
+  <!-- Informações de Identificação e Substituição -->
+  <g transform="translate(300, 255)" text-anchor="middle">
+    <rect x="-130" y="-14" width="260" height="24" rx="4" fill="#0A192F" stroke="#0F52BA" stroke-width="1"/>
+    <text y="2" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="11" font-weight="700" letter-spacing="2" fill="#F26419">
+      SERVIÇO TÉCNICO
+    </text>
+
+    <text y="30" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="16" font-weight="800" fill="#FFFFFF">
+      Engenharia Civil &amp; Estruturas
+    </text>
+
+    <text y="52" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="11" font-weight="500" fill="#94A3B8">
+      Placeholder FEU • Arquivo: service-civil.jpg (600x400)
+    </text>
+  </g>
+
+  <!-- Tag inferior de substituição -->
+  <g transform="translate(300, 365)" text-anchor="middle">
+    <text font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="10" font-weight="600" letter-spacing="1.5" fill="#38BDF8">
+      [ SUBSTITUA POR SUA FOTO REAL: service-civil.jpg ]
+    </text>
+  </g>
+</svg>

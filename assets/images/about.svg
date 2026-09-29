@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A192F"/>
+      <stop offset="50%" stop-color="#0F2444"/>
+      <stop offset="100%" stop-color="#142C52"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E3A5F" stroke-width="0.8" opacity="0.6"/>
+      <path d="M 200 0 L 0 0 0 200" fill="none" stroke="#2563EB" stroke-width="1.2" opacity="0.2"/>
+    </pattern>
+  </defs>
+
+  <!-- Fundo Corporativo Técnico -->
+  <rect width="800" height="600" fill="url(#bgGrad)"/>
+  <rect width="800" height="600" fill="url(#grid)"/>
+
+  <!-- Linhas Técnicas de Engenharia -->
+  <line x1="20" y1="20" x2="780" y2="20" stroke="#1E3A5F" stroke-width="1"/>
+  <line x1="20" y1="580" x2="780" y2="580" stroke="#1E3A5F" stroke-width="1"/>
+  <line x1="20" y1="20" x2="20" y2="580" stroke="#1E3A5F" stroke-width="1"/>
+  <line x1="780" y1="20" x2="780" y2="580" stroke="#1E3A5F" stroke-width="1"/>
+
+  <!-- Cantos de Esquadro -->
+  <path d="M 20 45 L 20 20 L 45 20" stroke="#F26419" stroke-width="3" fill="none"/>
+  <path d="M 755 20 L 780 20 L 780 45" stroke="#F26419" stroke-width="3" fill="none"/>
+  <path d="M 20 555 L 20 580 L 45 580" stroke="#F26419" stroke-width="3" fill="none"/>
+  <path d="M 755 580 L 780 580 L 780 555" stroke="#F26419" stroke-width="3" fill="none"/>
+
+  <!-- Centro Técnico com Ícone -->
+  <g transform="translate(400, 265)">
+    <circle cx="0" cy="0" r="65" fill="#0A192F" stroke="#1E3A5F" stroke-width="2"/>
+    <circle cx="0" cy="0" r="55" fill="none" stroke="#F26419" stroke-width="1.5" stroke-dasharray="6 4" opacity="0.8"/>
+    <circle cx="0" cy="0" r="32" fill="none" stroke="#0F52BA" stroke-width="6" stroke-dasharray="10 4"/><circle cx="0" cy="0" r="16" fill="#F26419"/><circle cx="0" cy="0" r="8" fill="#0A192F"/>
+  </g>
+
+  <!-- Informações de Identificação e Substituição -->
+  <g transform="translate(400, 355)" text-anchor="middle">
+    <rect x="-130" y="-14" width="260" height="24" rx="4" fill="#0A192F" stroke="#0F52BA" stroke-width="1"/>
+    <text y="2" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="11" font-weight="700" letter-spacing="2" fill="#F26419">
+      INSTITUCIONAL FEU
+    </text>
+
+    <text y="30" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="16" font-weight="800" fill="#FFFFFF">
+      Compromisso com o Rigor Técnico
+    </text>
+
+    <text y="52" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="11" font-weight="500" fill="#94A3B8">
+      Placeholder FEU • Arquivo: about.jpg (800x600)
+    </text>
+  </g>
+
+  <!-- Tag inferior de substituição -->
+  <g transform="translate(400, 565)" text-anchor="middle">
+    <text font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="10" font-weight="600" letter-spacing="1.5" fill="#38BDF8">
+      [ SUBSTITUA POR SUA FOTO REAL: about.jpg ]
+    </text>
+  </g>
+</svg>
